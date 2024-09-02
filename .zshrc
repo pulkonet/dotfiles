@@ -15,6 +15,7 @@ alias s="git status"
 alias c="git commit"
 alias a="git add"
 alias tf="terraform"
+alias fuck='function _blah(){ lsof -i:$1 -t | xargs kill -9 };_blah'
 alias workon='function _blah(){ source ~/.virtualenvs/$1/bin/activate };_blah'
 alias freeze="pip freeze > requirements.txt"
 export PATH="$PATH":"$HOME/.pub-cache/bin"
